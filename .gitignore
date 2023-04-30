@@ -1,0 +1,5 @@
+*.o
+JeuHypermarche
+.vscode/
+*.txt
+*.out
