@@ -48,7 +48,7 @@ int main(){
                 jeu.affichePositionClients();
 
                 continuer = jeu.actionsSurCaisses();
-                cout << "\n\n\n\n\n\n" << endl;
+                cout << "\n\n\n\n\n" << endl;
 
             }while(!continuer);
 
@@ -66,7 +66,6 @@ int main(){
 
             /* Met les clients en caisse parmis les clients en attente */
             jeu.metttreClientsEnCaisses();
-
             cout << endl;
 
             /* Augmente le tour du jeu */
